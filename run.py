@@ -96,7 +96,7 @@ class Indicator():
     self.timeout_thread = None
 
     # Setup applet icon
-    self.applet_icon = "twitch-indicator"
+    self.applet_icon = "twitch"
 
     # Create applet
     self.a = appindicator.Indicator.new(
